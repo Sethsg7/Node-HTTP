@@ -1,0 +1,25 @@
+{
+  "name": "node_http",
+  "version": "1.0.0",
+  "description": "1. Open your command line and navigate to your repos directory (if you do not have a repos folder, then you can use mkdir repos to create one)\r 2. Use this template repository to start a new project in your repos folder: git clone <repo_name>\r 3. cd repo_name to navigate into your new repo directory\r 4. Start Visual Studio Code and select 'Open Folder'. Then select repo_name to open the folder in the editor (or just type code . in your terminal inside the repo directory)\r 5. Follow the instructions on the README.md file to complete exercises\r 6. Open the app.js file to get started",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sethsg7/node_http.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sethsg7/node_http/issues"
+  },
+  "homepage": "https://github.com/Sethsg7/node_http#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
